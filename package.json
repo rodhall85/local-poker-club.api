@@ -1,0 +1,19 @@
+{
+  "name": "local-poker-club.api",
+  "version": "0.1.0",
+  "description": "An api for communicating with the local-poker-club db for local poker club administrators to manage their games, playerbase and results",
+  "scripts": {
+    "start": "babel-node src/app.js"
+  },
+  "author": "Rod Hall <rodhall@hotmail.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.6"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0"
+  }
+}
